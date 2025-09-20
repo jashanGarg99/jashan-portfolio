@@ -223,6 +223,14 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                title: "Small Mobile Engine",
+                description: "A mobile engine repair and maintenance service app with real-time tracking",
+                tech: ["NextJS", "Node.js", "MongoDB"],
+                image: "/engine.png",
+                color: "from-purple-500 to-pink-500",
+                href: "https://sunnysmallengine.ca"
+              },
+              {
                 title: "Service Booking Web App",
                 description: "A full-stack service booking application with user authentication and real-time updates",
                 // description: "A modern e-commerce solution with React, Node.js, and MongoDB",
